@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    background-color: #00ABE7;
+    font-family: Arial, sans-serif;
+}
+
+.crypto-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #2DC7FF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.crypto-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.crypto-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.crypto-name {
+    font-weight: bold;
+}
+
+.crypto-price {
+    color: black;
+}
